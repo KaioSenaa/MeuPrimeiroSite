@@ -3,13 +3,13 @@
     Caso eu coloque um asterisco antes da chave, deixara tudo da cor que eu quero */
     padding: 0;
     margin: 0;
-    background-color: black;
     color: #F1F1F1;
 }
 
 .header {
     padding: 15px;
-    border-bottom: 3px solid #32b9cd;
+    border-bottom: 3px solid #32b9cd; 
+    background-color: black;
 }
 
 .container{
@@ -35,6 +35,18 @@ ul{
 li{
     color:#e3b062
 }
-.navbar{
+.banner{
+    background-image: url("./img/bg-jelly-fish-para_outras_pags.png"); /* Colocar img local no plano de fundo do site. Colocar um ponto quando estiver na pasta correta e caso estiver em uma subpasta, coloque 2 pontos iniciais */
+    padding: 100px 0;
+} 
 
+.banner .container{
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.banner p{
+    width: 280px;
+    color: #FFFFFF;
+    font-size: 30px;
 }

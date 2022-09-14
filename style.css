@@ -50,3 +50,20 @@ li{
     color: #FFFFFF;
     font-size: 30px;
 }
+.social{
+    margin: 50px 0;
+}
+.social .caixas, .caixa{
+    display: flex;
+}
+.caixa h4{
+    margin: 15px 0;
+    color: #e600e6;
+}
+.caixa p{
+    text-align: center;
+    color:#000000;
+}
+.caixa img{
+    width: 170px;
+}

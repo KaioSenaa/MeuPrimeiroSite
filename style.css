@@ -56,6 +56,11 @@ li{
 .social .caixas, .caixa{
     display: flex;
 }
+.caixa{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
 .caixa h4{
     margin: 15px 0;
     color: #e600e6;

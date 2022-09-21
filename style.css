@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     color: #F1F1F1;
+    font-family: sans-serif;
 }
 
 .header {
@@ -62,7 +63,7 @@ li{
     margin: 0 15px;
 }
 .caixa h4{
-    margin: 15px 0;
+    margin: 15px 0; /* Primeiro y (altura) e depois x (largura) */
     color: #e600e6;
 }
 .caixa p{
@@ -71,4 +72,22 @@ li{
 }
 .caixa img{
     width: 170px;
+}
+.footer {
+    padding: 45px 0;
+    background-color: #32b9cd;
+    
+}
+
+.footer .container{
+    justify-content: center; /* Colocar as duas divs para aplicar o texto no meio */
+}
+.footer p{
+    color: #FFFFFF;   
+}
+/* Tirar a cor branca do Login e animação de quando o mouse passar em cima */
+li a{
+    color:#e3b062;
+    text-decoration: none;
+    cursor: pointer;
 }
